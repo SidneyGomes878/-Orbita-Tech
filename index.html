@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Órbita Tech</title>
+</head>
+
+<body>
+    <!--information navigation/ informação de navegação-->
+    <header>
+        <div class="logo">Órbita Tech</div>
+        <nav>
+            <ul>
+                <li>home</li>
+                <li>produtos</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="Element circle">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </main>
+    <!--information main/ informação principal-->
+    <div class="list">
+        <div class="item activ">
+            <div class="Product-img">
+                <img src="img/apple-watch.png" alt="apple watch">
+            </div>
+            <div class="content">
+                <p class="Product-tag">Novo Lançamento</p>
+                <p class="Product-name">Apple wharch serie 10</p>
+                <p class="description">Relógio digital de excelente qualidade</p>
+                <button class="btn">Saiba mais</button>
+            </div>
+        </div>
+        <!--Product Air Pods Max-->
+        <div class="item">
+            <div class="Product-img">
+                <img src="img/air-pods.png" alt="Air Pods Max">
+            </div>
+            <div class="content">
+                <p class="Product-tag">Som Premium</p>
+                <p class="Product-name">Air Pods Max</p>
+                <p class="description">Air Pods Max de excelente qualidade</p>
+                <button class="btn">Saiba mais</button>
+            </div>
+        </div>
+        <!--Product Vision Pro-->
+        <div class="item">
+            <div class="Product-img">
+                <img src="img/vision-pro.png" alt="Vision Pro">
+            </div>
+            <div class="content">
+                <p class="Product-tag">Alta Performace</p>
+                <p class="Product-name">Vison Pro</p>
+                <p class="description">Vison Pro de excelente qualidade</p>
+                <button class="btn">Saiba mais</button>
+            </div>
+        </div>
+    </div>
+    <!--Arrow/ Setas-->
+    <div class="Arrow">
+        <button class="arrow-btn" id="prev"><!--facilitating Java Script-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+            </svg>
+        </button>
+        <button class="arrow-btn" id="next"><!--facilitating Java Script-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+            </svg>
+        </button>
+    </div>
+    <!--indicator page/ indicador pagina-->
+    <div class="indicators">
+        <div class="numbers">01</div>
+        <div class="docts"></div>
+        <div class="doc active"></div>
+        <div class="doc"></div>
+        <div class="doc"></div>
+    </div>
+
+</body>
+
+</html>
