@@ -40,7 +40,21 @@ header nav ul {
 
 header nav ul li {
     cursor: pointer;
-    transition: relative;
+    position: relative;
     padding: 5px 0px;
+}
+
+header nav ul li::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 0px;
+    height: 2px;
+    background-color: #00f7ff;
+}
+
+header nav ul li:hover::after {
+    width: 100%;
 }
 
