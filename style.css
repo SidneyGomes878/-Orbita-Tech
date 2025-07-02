@@ -260,3 +260,17 @@ header nav ul li:hover::after {
     background-color: #00f7ff;
     box-shadow: 0 0 10px rgba(0, 247, 255, 0.5);
 }
+
+.tech-circle {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(0, 247, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
