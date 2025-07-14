@@ -11,11 +11,5 @@ const total = items.length
 let timer;
 
 
-prevButtom.addEventListener('click', () => {
-    alert("prev")
-})
 
-nextButton.addEventListener('click', () => {
-    alert("next")
-})
     
