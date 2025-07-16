@@ -7,7 +7,6 @@ const list = document.querySelector('.list')
 
 
 let active = 0;
-const total = items.length
 
 
     
