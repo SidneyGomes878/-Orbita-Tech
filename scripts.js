@@ -6,7 +6,6 @@ const numberIndicator = document.querySelector('.numbers')
 const list = document.querySelector('.list')
 
 
-let active = 0;
 
 
     
